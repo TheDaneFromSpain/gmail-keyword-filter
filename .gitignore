@@ -1,0 +1,7 @@
+.idea
+.venv
+__pycache__
+credentials.json
+token.json
+company_names.txt
+work_emails.txt
