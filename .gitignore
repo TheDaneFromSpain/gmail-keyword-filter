@@ -3,5 +3,5 @@
 __pycache__
 credentials.json
 token.json
-company_names.txt
+saved_company_names.txt
 work_emails.txt
