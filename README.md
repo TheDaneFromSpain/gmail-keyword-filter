@@ -4,7 +4,7 @@ This project was developed for personal use in filtering company names from emai
 
 Because of this, it only looks for emails that have the "work" label in gmail, but this can be changed in the customizations section.
 
-Part of it uses the Gmail API python quickstart, under Apache licence 2.0: https://developers.google.com/workspace/gmail/api/quickstart/python
+It uses a modified version of the Gmail API python quickstart, which is under Apache licence 2.0: https://developers.google.com/workspace/gmail/api/quickstart/python
 
 ## Instructions
 
@@ -13,6 +13,6 @@ Part of it uses the Gmail API python quickstart, under Apache licence 2.0: https
 
 ## Customizations
 
-- Change query from "label:work" in `get_mails` function in *quickstart.py* to another gmail search query.
+- Change query from "label:work" in `get_mails` function in *quickstart.py* to any other gmail search query.
 - Modify the frequency of updates while in the infinite loop by changing `time.sleep(10)` to any amount of seconds desired.
 - Remove lower/uppercase ignore by removing `.lower()` function calls.
