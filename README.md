@@ -13,6 +13,6 @@ Part of it uses the Gmail API python quickstart, under Apache licence 2.0: https
 
 ## Customizations
 
-- Change query from "label:work" in get_mails function in *quickstart.py* to another gmail search query.
-- Modify the frequency of updates while in the infinite loop by changing time.sleep(10) to any amount of seconds desired.
-- Remove lower/uppercase ignore by removing .lower() function calls.
+- Change query from "label:work" in `get_mails` function in *quickstart.py* to another gmail search query.
+- Modify the frequency of updates while in the infinite loop by changing `time.sleep(10)` to any amount of seconds desired.
+- Remove lower/uppercase ignore by removing `.lower()` function calls.
